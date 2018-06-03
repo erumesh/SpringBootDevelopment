@@ -1,7 +1,7 @@
 # SpringBootDevlopment
 
 /**
-This is the example is to show the Integration of below
+This example is to show the Integration of below
 
 SpringBoot + JPA + Hibernate + RestApi 
 
