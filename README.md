@@ -1,14 +1,10 @@
 # SpringBootDevlopment
 
-/**
 This example is to show the Integration of below
 
 SpringBoot + JPA + Hibernate + RestApi 
 
-Feel free to contact me.
-
-Enjoy the learning till the next working example.
-*/
+Feel free to leave he comment. Enjoy the learning till the next working example.
 
 Prerequisite : 
 
@@ -26,18 +22,15 @@ Prerequisite :
 4) Resolve the maven dependency.
 5) Run the main Application as a java application.
 6) Enter the below URL,Similarly you can figure out other endPoint from the controller class.
+   for get request : http://localhost:8080/designthink/api/users
+   for Post Request : http://localhost:8080/designthink/api/user 
+   Below is the Jason Mesage you must send in the body of the Post request :  
 
- for get request : http://localhost:8080/designthink/api/users
- 
- for Post Request : http://localhost:8080/designthink/api/user
- 
- Below is the Jason Mesage you must send in the body of the Post request :  
- 
- {
-    "name": "MyName",
-    "age": 32,
-    "salary": 2532.23
-  }
+    {
+       "name": "MyName",
+       "age": 32,
+       "salary": 2532.23
+     }
  
  7) if you want to chnage the the context rootof the application please chane the below property of 
     application.properties file to desired one.
@@ -54,4 +47,4 @@ Prerequisite :
              user_name varchar2(255 char),
              salary double precision,
              primary key (user_id)
-         )
+         );
