@@ -22,8 +22,11 @@ Prerequisite :
 4) Resolve the maven dependency.
 5) Run the main Application as a java application.
 6) Enter the below URL,Similarly you can figure out other endPoint from the controller class.
+
    for get request : http://localhost:8080/designthink/api/users
+   
    for Post Request : http://localhost:8080/designthink/api/user 
+   
    Below is the Jason Mesage you must send in the body of the Post request :  
 
     {
