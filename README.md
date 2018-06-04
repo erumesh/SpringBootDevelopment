@@ -4,7 +4,7 @@ This example is to show the Integration of below
 
 SpringBoot + JPA + Hibernate + RestApi 
 
-Feel free to leave he comment. Enjoy the learning till the next working example.
+Feel free to leave the comment. Enjoy the learning till the next working example.
 
 Prerequisite : 
 
